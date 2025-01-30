@@ -40,8 +40,8 @@
 - **Insert multiple documents:**  
   ```bash
   db.myCollection.insertMany([
-    { name: "Pooja", age: 24 },
-    { name: "Rahul", age: 26 }
+    { name: "Dytto", age: 24 },
+    { name: "Chris Brown", age: 26 }
   ])
   ```
 
@@ -52,7 +52,7 @@
   ```
 - **Find one document:**  
   ```bash
-  db.myCollection.findOne({ name: "Ashutosh" })
+  db.myCollection.findOne({ name: "Rahul" })
   ```
 - **Find with condition:**  
   ```bash
@@ -67,7 +67,7 @@
 - **Update one document:**  
   ```bash
   db.myCollection.updateOne(
-    { name: "Ashutosh" },
+    { name: "Rahul" },
     { $set: { age: 26 } }
   )
   ```
@@ -82,7 +82,7 @@
 ### **6. Delete Documents**
 - **Delete one document:**  
   ```bash
-  db.myCollection.deleteOne({ name: "Ashutosh" })
+  db.myCollection.deleteOne({ name: "Rahul" })
   ```
 - **Delete multiple documents:**  
   ```bash
