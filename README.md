@@ -35,7 +35,7 @@
 ### **3. Insert Documents**
 - **Insert one document:**  
   ```bash
-  db.myCollection.insertOne({ name: "Ashutosh", age: 25 })
+  db.myCollection.insertOne({ name: "Dytto", age: 25 })
   ```
 - **Insert multiple documents:**  
   ```bash
